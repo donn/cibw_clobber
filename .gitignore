@@ -1,0 +1,16 @@
+/.vscode
+
+# python
+__pycache__
+/venv
+/dist
+*.egg-info
+/build
+
+# binaries
+*.out
+*.o
+*.a
+*.dylib
+*.so
+*.dll
