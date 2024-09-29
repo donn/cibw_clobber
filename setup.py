@@ -18,12 +18,7 @@ ext = Extension(
 )
 
 subprocess.check_call(["python3", "--version"])
-subprocess.check_call(
-    [
-        f"{os.path.dirname(shutil.which("python3"))}/python3-config",
-        "--includes",
-    ]
-)
+subprocess.check_call(["python3-config", "--includes"])
 
 setup(
     name=module_name,
